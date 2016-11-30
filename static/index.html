@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-tagsinput/1.3.6/jquery.tagsinput.min.css">
+<style>
+
+    .background {
+        fill: none;
+        pointer-events: all;
+    }
+
+    #state-borders {
+        fill: none;
+        stroke: #000;
+        stroke-width: 2px;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+        pointer-events: none;
+    }
+
+    .side-by-side {
+        float: left;
+        padding: 0px 20px;
+    }
+
+</style>
+<head>
+    <h1 align="center">Auto Detect Tags</h1>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tagsinput/1.3.6/jquery.tagsinput.min.js"></script>
+
+
+<div class="container">
+    <form id="user_input" onsubmit="return false">
+        <div class="form-group">
+            <label>Title:</label>
+            <input class="form-control input-lg" id="title" type="text">
+        </div>
+        <div class="form-group">
+            <label for="comment">Content: </label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+        <input type="submit" class="btn btn-default" value="Generate Tags"/>
+    </form>
+</div>
+<br/>
+<div class="container">
+        <input type="text" value="asd" data-role="tagsinput" id="tags"/>
+</div>
+
+
+<script>
+    $("#user_input").submit(function (event) {
+        var title = $("#title")[0].value;
+        var comment = $("#comment")[0].value;
+        console.log('title:' + title);
+        console.log('comment:' + comment);
+        $.get('/getTags?title=' + title + '&body=' + comment, function (data) {
+            $("#tags").value =
+            tags = data;
+            //console.log(data);
+            //alert( "Load was performed." );
+        });
+    });
+    $(document).ready(function () {
+        $("#tags").val();
+        //$("#tags").tagsInput('items');
+    });
+
+</script>
+</body>
+</html>
