@@ -67,8 +67,8 @@ def getTags():
     mnb_result = mnb_classifier.predict(test_data_features)
     all_tags.add(mnb_result[0])
     print mnb_result[0]
-
-    all_tags.remove("Undefined")
+    if "Undefined" in all_tags:
+        all_tags.remove("Undefined")
 
     return json.dumps({"perceptron_result":perceptron_result[0],"SGD_result":SGD_result[0],"bnb1_result":bnb1_result[0],
             "bnb2_result":bnb2_result[0],"mnb_result":mnb_result[0],"all_tags":list(all_tags)})

@@ -29,8 +29,8 @@
     <div class="button-section">
          <input type="submit" class="btn btn-default" value="Generate Tags"/>
     </div>
-    <div class="inner-wrap">
-        <input type="text"  data-role="tagsinput" id="tags"/>
+    <div class="inner-wrap inner-wrap-2">
+
     </div>
 </form>
 </div>
@@ -47,6 +47,8 @@
         console.log('title:' + title);
         console.log('comment:' + comment);
         $.get('/getTags?text=' + title + comment, function (data) {
+        $(".inner-wrap-2").html("");
+        $(".inner-wrap-2").append('<input type="text"  data-role="tagsinput" id="tags"/>');
         $("#tags").val( (JSON.parse(data)["all_tags"]));
          $("#tags").tagsInput('items');
 
