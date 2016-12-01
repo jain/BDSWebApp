@@ -1,0 +1,26 @@
+fit_time:7.13891100883 vectorizing_time:4.09250688553result_0.csv
+fit_time:6.9386639595 vectorizing_time:3.94256806374result_1.csv
+fit_time:8.38765287399 vectorizing_time:4.32520985603result_0.csv
+fit_time:7.75646901131 vectorizing_time:4.09469389915result_1.csv
+fit_time:8.56567311287 vectorizing_time:4.03548002243result_0.csv
+fit_time:8.54355597496 vectorizing_time:4.09264492989result_1.csv
+fit_time:8.47432303429 vectorizing_time:4.07743096352result_10.csv
+fit_time:8.56563305855 vectorizing_time:3.97716593742result_11.csv
+fit_time:8.40582299232 vectorizing_time:5.8066368103result_12.csv
+fit_time:8.73870706558 vectorizing_time:4.13961005211result_13.csv
+fit_time:9.56660485268 vectorizing_time:5.51754498482result_14.csv
+fit_time:9.22404003143 vectorizing_time:6.74095702171result_15.csv
+fit_time:8.22936606407 vectorizing_time:4.06133389473result_16.csv
+fit_time:9.22834801674 vectorizing_time:3.8748049736result_17.csv
+fit_time:9.02646613121 vectorizing_time:5.27138113976result_18.csv
+fit_time:10.1047301292 vectorizing_time:4.04357886314result_19.csv
+fit_time:8.92231988907 vectorizing_time:5.01717782021result_2.csv
+fit_time:9.03951787949 vectorizing_time:4.13499093056result_20.csv
+fit_time:8.93847084045 vectorizing_time:3.95773506165result_3.csv
+fit_time:9.80933213234 vectorizing_time:5.38661885262result_4.csv
+fit_time:11.3751599789 vectorizing_time:6.26811003685result_5.csv
+fit_time:8.46281099319 vectorizing_time:4.02579903603result_6.csv
+fit_time:8.79541897774 vectorizing_time:3.91295099258result_7.csv
+fit_time:9.20250797272 vectorizing_time:3.88579702377result_8.csv
+fit_time:8.34382891655 vectorizing_time:3.84758996964result_9.csv
+389.802424908

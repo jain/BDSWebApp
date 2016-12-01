@@ -1,0 +1,22 @@
+fit_time:23.3727610111 vectorizing_time:3.98177599907result_0.csv
+fit_time:24.8515100479 vectorizing_time:5.1419570446result_1.csv
+fit_time:25.8619229794 vectorizing_time:4.23005008698result_10.csv
+fit_time:25.6001048088 vectorizing_time:4.57682180405result_11.csv
+fit_time:23.4688270092 vectorizing_time:3.90939092636result_12.csv
+fit_time:24.6124231815 vectorizing_time:4.36027288437result_13.csv
+fit_time:25.201431036 vectorizing_time:4.31643009186result_14.csv
+fit_time:25.072906971 vectorizing_time:4.55206894875result_15.csv
+fit_time:24.0736920834 vectorizing_time:4.2249789238result_16.csv
+fit_time:24.6692540646 vectorizing_time:4.37430310249result_17.csv
+fit_time:25.1105570793 vectorizing_time:4.23088502884result_18.csv
+fit_time:24.6598939896 vectorizing_time:4.07470798492result_19.csv
+fit_time:23.9083559513 vectorizing_time:3.91676998138result_2.csv
+fit_time:23.9022071362 vectorizing_time:3.91277194023result_20.csv
+fit_time:24.0101840496 vectorizing_time:4.04861521721result_3.csv
+fit_time:22.0275549889 vectorizing_time:4.64270615578result_4.csv
+fit_time:23.4294040203 vectorizing_time:5.0316619873result_5.csv
+fit_time:23.7770240307 vectorizing_time:4.00551199913result_6.csv
+fit_time:23.9761960506 vectorizing_time:4.20432877541result_7.csv
+fit_time:24.0869028568 vectorizing_time:4.4319190979result_8.csv
+fit_time:23.9769368172 vectorizing_time:4.09565401077result_9.csv
+814.719530106
