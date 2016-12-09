@@ -23,7 +23,11 @@ A Tag Recommendation System for Stack Overflow Posts
 
 An ensemble o these classification algorithms has been used to recommend tags.
 
-
+## Running the System
+* Install python
+* Install pip
+* pip install -r requirements.txt
+* python app.py
 
 
 
